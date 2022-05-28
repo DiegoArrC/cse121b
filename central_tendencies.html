@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>CSE 121B: Week 06 | Central Tendencies Calculator</title>
+        <link href="https://fonts.googleapis.com/css?family=Kalam&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="styles/main.css">
+    </head>
+    <body>
+        <nav></nav>
+        <main>
+            <section>
+                <div>
+                    <label>Value List Entry</label>
+                    <input type="text" id="listInput" name="listInput">
+                </div>
+                <div>
+                    <input type="button" id="calculateValues" value="Calculate Values">
+                </div>
+                <div>
+                    <label for="sortedList">Sorted List:</label>
+                    <input type="text" id="sortedList" name="sortedList" disabled>
+                </div>
+                <br><br>
+                <div>
+                    <label for="mean">Mean:</label>
+                    <input type="text" id="mean" name="mean" disabled>
+                </div>
+                <div>
+                    <label for="median">Median:</label>
+                    <input type="text" id="median" name="median" disabled>
+                </div>
+                <div>
+                    <label for="mode">Mode:</label>
+                    <input type="text" id="mode" name="mode" disabled>
+                </div>
+            </section>
+        </main>
+        <footer>
+            Central Tendencies Calculator | JS Final
+        </footer>
+        <script src="scripts/calculations.js"></script>
+</body>
+</html>
