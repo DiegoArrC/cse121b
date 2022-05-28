@@ -39,6 +39,7 @@ label {
 #functions {
     display: grid;
     grid-template-columns: 300px 0.1fr auto;
+    grid-template-rows: 100px 100px 100px auto;
 }
 #input{
     grid-column: 1/2;
@@ -57,6 +58,8 @@ label {
 #sortedList {
     overflow:scroll;
     resize: vertical;
+    width: 200px;
+    height: 100px;
 }
 #meanDiv {
     grid-column: 3/4;
@@ -67,4 +70,8 @@ label {
 }
 #modeDiv {
     grid-column: 3/4;
+}
+
+label {
+    background-color: aquamarine;
 }
