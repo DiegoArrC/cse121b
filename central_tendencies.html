@@ -9,30 +9,29 @@
         <link rel="stylesheet" href="styles/main.css">
     </head>
     <body>
-        <nav></nav>
+        <header>Mean, Median, and Mode Calculator</header>
         <main>
-            <section>
-                <div>
-                    <label>Value List Entry</label>
-                    <input type="text" id="listInput" name="listInput">
+            <section id="functions">
+                <div id="input">
+                    <label for="listInput">Value List Entry:</label>
+                    <input type="text" id="listInput" name="listInput" placeholder="Ex: 1,2,3,..." autofocus>
                 </div>
-                <div>
+                <div id="calcButton">
                     <input type="button" id="calculateValues" value="Calculate Values">
                 </div>
-                <div>
+                <div id="sorted">
                     <label for="sortedList">Sorted List:</label>
-                    <input type="text" id="sortedList" name="sortedList" disabled>
+                    <input type="textarea" id="sortedList" name="sortedList" rows="10" height="auto" readonly>
                 </div>
-                <br><br>
-                <div>
+                <div id="meanDiv">
                     <label for="mean">Mean:</label>
                     <input type="text" id="mean" name="mean" disabled>
                 </div>
-                <div>
+                <div id="medianDiv">
                     <label for="median">Median:</label>
                     <input type="text" id="median" name="median" disabled>
                 </div>
-                <div>
+                <div id="modeDiv">
                     <label for="mode">Mode:</label>
                     <input type="text" id="mode" name="mode" disabled>
                 </div>
