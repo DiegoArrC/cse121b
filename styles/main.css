@@ -1,0 +1,70 @@
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+body {
+    font-family: 'Kalam', cursive;
+}
+div {
+    margin: 10px;
+    text-align: center;
+}
+
+footer {
+    background-color: darkgray;
+    color:aliceblue;
+    padding: 5px;
+    text-align: center;
+}
+header {
+    margin: auto;
+    text-align: center;
+}
+label {
+    display: inline-block;
+    min-width: 120px;
+    text-align: right;
+}
+
+.active {
+    background-color: whitesmoke;
+}
+
+.open li {
+    display: block;
+}
+/* id selectors */
+#functions {
+    display: grid;
+    grid-template-columns: 300px 0.1fr auto;
+}
+#input{
+    grid-column: 1/2;
+    grid-row: 1/2;
+    
+}
+#sorted{
+    grid-column:1/3;
+    grid-row:2/4;
+}
+
+#calcButton{
+    grid-column: 2/3;
+    grid-row:1/2;
+}
+#sortedList {
+    overflow:scroll;
+    resize: vertical;
+}
+#meanDiv {
+    grid-column: 3/4;
+}
+
+#medianDiv {
+    grid-column:3/4;
+}
+#modeDiv {
+    grid-column: 3/4;
+}
